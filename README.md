@@ -1,10 +1,10 @@
-# AffordMed URL Shortener
+#  URL Shortener
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-4.x-blue.svg)](https://expressjs.com/)
 
-A simple URL shortener service built for the AffordMed platform. It takes long URLs and creates short, shareable links while tracking how often they're used.
+A simple URL shortener service built for the  platform. It takes long URLs and creates short, shareable links while tracking how often they're used.
 
 ## What it does
 
@@ -182,7 +182,7 @@ When someone visits your short URL, they automatically get redirected to the ori
 curl -X POST http://localhost:3000/shorturls \
   -H "Content-Type: application/json" \
   -d '{
-    "url": "https://www.affordmed.com/very/long/path/to/resource",
+    "url": "https://www. .com/very/long/path/to/resource",
     "validity": 60,
     "shortcode": "afford123"
   }'
@@ -370,10 +370,10 @@ If you run into problems or have questions:
 
 ## Related projects
 
-- [AffordMed Frontend](link-to-frontend-repo)
-- [AffordMed API Gateway](link-to-gateway-repo)
-- [AffordMed Documentation](link-to-docs)
+- [  Frontend](link-to-frontend-repo)
+- [  API Gateway](link-to-gateway-repo)
+- [  Documentation](link-to-docs)
 
 ---
 
-Built with care for AffordMed Technologies
+Built with care for   Technologies
