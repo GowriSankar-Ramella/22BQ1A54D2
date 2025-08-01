@@ -1,8 +1,5 @@
 #  URL Shortener
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
-[![Express.js](https://img.shields.io/badge/Express.js-4.x-blue.svg)](https://expressjs.com/)
 
 A simple URL shortener service built for the  platform. It takes long URLs and creates short, shareable links while tracking how often they're used.
 
@@ -317,63 +314,7 @@ The app includes several security measures:
 2. **Using URLs**: Someone clicks the short URL → we look it up → check if it's expired → record the click → redirect them
 3. **Getting stats**: You ask for statistics → we look up the data → send back click information
 
-## For production use
 
-### Things to do before going live
 
-- [ ] Set up environment variables for production
-- [ ] Replace in-memory storage with a real database (Redis or MongoDB)
-- [ ] Add rate limiting to prevent abuse
-- [ ] Set up monitoring and alerts
-- [ ] Use a reverse proxy like nginx
-- [ ] Enable HTTPS
-- [ ] Set up proper log collection
 
-### Making it handle more traffic
 
-If you need to handle lots of users:
-
-- **Use a database**: Replace the in-memory storage with Redis for speed or MongoDB for persistence
-- **Add caching**: Use Redis to cache frequently accessed URLs
-- **Load balancing**: Run multiple instances behind a load balancer
-- **Monitoring**: Use tools like New Relic or DataDog to track performance
-
-## Contributing
-
-Want to help improve this project? Here's how:
-
-1. Fork the repository
-2. Create a new branch for your feature (`git checkout -b feature/cool-new-thing`)
-3. Make your changes and commit them (`git commit -m 'Add cool new thing'`)
-4. Push your branch (`git push origin feature/cool-new-thing`)
-5. Open a Pull Request
-
-### Guidelines for contributors
-
-- Write code that's easy to understand
-- Handle errors properly
-- Add logging where it makes sense
-- Test your changes before submitting
-- Update the documentation if needed
-
-## License
-
-This project uses the MIT License - check the [LICENSE](LICENSE) file for details.
-
-## Need help?
-
-If you run into problems or have questions:
-
-- Open an issue in this repository
-- Contact the development team
-- Check the server logs for error details
-
-## Related projects
-
-- [  Frontend](link-to-frontend-repo)
-- [  API Gateway](link-to-gateway-repo)
-- [  Documentation](link-to-docs)
-
----
-
-Built with care for   Technologies
