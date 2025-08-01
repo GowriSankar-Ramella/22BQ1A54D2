@@ -314,6 +314,11 @@ The app includes several security measures:
 2. **Using URLs**: Someone clicks the short URL → we look it up → check if it's expired → record the click → redirect them
 3. **Getting stats**: You ask for statistics → we look up the data → send back click information
 
+<img width="1362" height="892" alt="s1" src="https://github.com/user-attachments/assets/4cdc8b80-7e99-479a-9b50-420cd8267d83" />
+<img width="1376" height="842" alt="s2" src="https://github.com/user-attachments/assets/b854ae56-1101-4c0e-9af8-776ae94cabcb" />
+<img width="1357" height="858" alt="s3" src="https://github.com/user-attachments/assets/01f8f10a-ec7c-4672-a942-8beb3075ae38" />
+
+
 
 
 
